@@ -63,6 +63,11 @@ const handleImageClicked = (event: MouseEvent) => {
 .user-image {
   width: 100px;
   border-radius: 50%;
+  cursor: pointer;
+}
+
+.user-image:hover {
+  border: 5px solid rgb(198, 255, 113);
 }
 
 .fade-enter-active,
